@@ -370,7 +370,7 @@ def fluxo_df_n_ajust(df_origin, p):
 
 #______________________________________________SCRIPT___________________________________
 
-#Importação da base de dados
+#Importação da base de dados (exemplo)
 path = r'C:/Users/est.gustavopietruza/Desktop/Python Scripts/Fluxo de Caixa ABAR/Fluxo_caixa_exemplo.xlsx'
 df_abar = pd.read_excel(path)
 df_abar = arruma_nome_colunas(df_abar)
